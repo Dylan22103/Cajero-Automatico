@@ -1,0 +1,167 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom right, #100788, #605c9b);
+}
+
+
+body #operaciones-container{
+    display: none;
+}
+
+body #opciones-container{
+    display: none;
+}
+
+body h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+     
+body #cuentas-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #161335;
+}
+
+body #cuentas-container #cuentas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+body #cuentas-container #cuentas button{
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#cuentas-container #cuentas button {
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+#cuentas-container #cuentas button:hover {
+    background-color: #131212;
+    color: #ffffff;
+}
+
+#operaciones-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #161335;
+}
+
+#operaciones-container #contraseña-container input{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+#operaciones-container #contraseña-container input:focus,#operaciones-container #contraseña-container input:hover {
+  border-color: #413939
+}
+
+#operaciones-container #contraseña-container button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#operaciones-container #contraseña-container button:hover{
+    background-color: #131212;
+    color: #ffffff;
+}
+
+
+#opciones-container h2{
+    display: flex;
+    justify-content: center;
+    color: #161335;
+}
+
+
+#opciones-container #botones-opciones{
+    opacity: 0;
+    animation: aparecer 5s forwards;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+@keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+#opciones-container #botones-opciones button{
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+#opciones-container #botones-opciones button:hover {
+    background-color: #131212;
+    color: #ffffff;
+}
+
+body .regresar button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+body .regresar button:hover{
+    background-color: #131212;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+

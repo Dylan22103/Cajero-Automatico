@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajero Automático</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cajero Automático</h1>
+  <div id="cuentas-container">
+    <h2>Seleccione una cuenta</h2>
+    <div id="cuentas">
+      <button onclick="seleccionarCuenta(0)">Juan</button>
+      <button onclick="seleccionarCuenta(1)">Maria</button>
+      <button onclick="seleccionarCuenta(2)">Santiago</button>
+    </div>
+  </div>
+  <div id="operaciones-container" >
+    <h2>Ingrese su contraseña:</h2>
+    <div id="contraseña-container">
+      <input type="password" id="password-input"><br>
+      <button onclick="ingresar()">Ingresar</button>
+    </div>
+    <div class="regresar">
+      <button onclick="botonRegresar()">Regresar</button>
+    </div>
+  </div>
+  <div id="opciones-container" >
+    <h2 id="bienvenido">Bienvenido</h2>
+    <div id="botones-opciones">
+      <button onclick="consultarSaldo()">Consultar Saldo</button>
+      <button onclick="ingresarMonto()">Ingresar Monto</button>
+      <button onclick="retirarMonto()">Retirar Monto</button>
+    </div>  
+    <div class="regresar">
+      <button onclick="botonRegresar()">Regresar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
